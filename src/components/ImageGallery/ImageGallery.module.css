@@ -1,4 +1,7 @@
 .galleryList {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;

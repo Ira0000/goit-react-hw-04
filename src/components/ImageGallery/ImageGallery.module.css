@@ -1,8 +1,8 @@
 .galleryList {
-  margin-left: auto;
-  margin-right: auto;
+  padding: 10px;
   margin-bottom: 25px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }

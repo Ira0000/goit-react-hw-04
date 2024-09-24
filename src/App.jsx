@@ -1,8 +1,9 @@
-import { Toaster } from "react-hot-toast";
-import "./App.css";
-import SearchBar from "./components/SearchBar/SearchBar";
 import { useEffect, useState } from "react";
 import { fetchImagesWithValue } from "./services/api";
+import { Toaster } from "react-hot-toast";
+import "./App.css";
+
+import SearchBar from "./components/SearchBar/SearchBar";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import Loader from "./components/Loader/Loader";
 import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
@@ -21,6 +22,7 @@ const customStyles = {
     backgroundColor: "#3d3d3d",
   },
 };
+
 function App() {
   const [images, setImages] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);

@@ -38,7 +38,6 @@ function App() {
 
   return (
     <>
-      <h1 className="header">Image Search App</h1>
       <div>
         <Toaster position="top-left" reverseOrder={false} />
       </div>

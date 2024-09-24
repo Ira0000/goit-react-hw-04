@@ -1,5 +1,6 @@
 import toast from "react-hot-toast";
 import s from "./SearchBar.module.css";
+import { FaMagnifyingGlass } from "react-icons/fa6";
 
 const SearchBar = ({ handleSearch }) => {
   const handleSubmit = (e) => {
@@ -26,7 +27,8 @@ const SearchBar = ({ handleSearch }) => {
           placeholder="Search images and photos"
         />
         <button type="submit" className={s.searchBtn}>
-          Search
+          <hr className={s.line} />
+          <FaMagnifyingGlass className={s.searchIcon} />
         </button>
       </form>
     </header>

@@ -1,0 +1,33 @@
+.header {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  padding: 40px;
+}
+
+.searchForm {
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+
+.search {
+  width: 300px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 58px -9px rgba(3, 3, 3, 1);
+  -moz-box-shadow: 0px 0px 58px -9px rgba(3, 3, 3, 1);
+  box-shadow: 0px 0px 58px -9px rgba(3, 3, 3, 1);
+}
+
+.searchBtn {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  width: 60px;
+  height: 35px;
+  -webkit-box-shadow: 0px 0px 58px -9px rgba(3, 3, 3, 1);
+  -moz-box-shadow: 0px 0px 58px -9px rgba(3, 3, 3, 1);
+  box-shadow: 0px 0px 58px -9px rgba(3, 3, 3, 1);
+}
